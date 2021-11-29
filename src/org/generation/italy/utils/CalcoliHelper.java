@@ -77,9 +77,28 @@ public class CalcoliHelper {
 		}else {
 			return 0;
 		}
-	
-	
-	
-	
 	}
+	
+	public static double pot (int num1,int num2) {
+		double calcolo= 1;
+		if(num2>=0) {
+			for (int i =  0;i < num2;i++) {
+				calcolo = calcolo * num1;
+				
+			}return calcolo;
+		}else {
+			for(int i = 0;i > num2;i--) {
+				calcolo = calcolo / num1;
+			}
+			
+			return calcolo;
+		}
+		
+		
+	}
+		
+	
+	
+	
+	
 }
