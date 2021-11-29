@@ -40,7 +40,46 @@ public class CalcoliHelper {
 			return num * (-1);
 		}
 	}
+	public static int max (int num1,int num2) {
+		if(num1<num2) {
+			return num2;
+		}else if (num1>num2){
+			return num1;
+		}else {
+			return 0;
+		}
+			
+	}
+	public static double max (double num1,double num2) {
+		if(num1<num2) {
+			return num2;
+		}else if (num1>num2){
+			return num1;
+		}else {
+			return 0;
+		}
+	}
+	public static int min (int num1,int num2) {
+		if(num1>num2) {
+			return num2;
+		}else if (num1<num2){
+			return num1;
+		}else {
+			return 0;
+		}
+			
+	}
+	public static double min (double num1,double num2) {
+		if(num1>num2) {
+			return num2;
+		}else if (num1<num2){
+			return num1;
+		}else {
+			return 0;
+		}
 	
 	
 	
+	
+	}
 }
